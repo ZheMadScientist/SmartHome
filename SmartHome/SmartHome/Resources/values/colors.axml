@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <color name="first_color">#00BCD4</color>
+  <color name="second_color">#77D065</color>
+  <color name="third_color">#B455B6</color>
+  <color name="fourth_color">#0e99a5</color>
+  <color name="white">#ffffff</color>
+  
+  <color name="back">#0097A7</color>
+  <color name="card_main_color">#455A64</color>
+  <color name="card_red_color">#BF360C</color> 
+  <color name="card_deepblue_color">#0D47A1</color>
+  <color name="card_teal_color">#00695C</color>
+  <color name="switch_color_on">#4DD0E1</color>
+  
+  <color name="script_color_grey">#78909C</color> 
+  <color name="script_color_black">#000000</color>
+  <color name="script_color_orange">#F4511E</color>
+  <color name="script_color_teal">#00695C</color>
+  <color name="script_color_red">#B71C1C</color>
+  <color name="script_color_yellow">#FFEB3B</color>
+  <color name="script_color_blue">#1E88E5</color>
+  <color name="script_color_green">#388E3C</color>
+  
+<!--acc = B71C1C, pr = 00BCD4 , prd = 00838F-->
+  <color name="colorPrimary">#0097A7</color>
+  <color name="colorPrimaryDark">#006064</color>
+  <color name="colorAccent">#00695C</color>
+</resources>

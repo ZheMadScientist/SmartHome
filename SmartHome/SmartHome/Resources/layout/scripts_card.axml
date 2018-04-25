@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardPreventCornerOverlap="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:background="@color/card_main_color">
+            <TextView
+                android:textSize="32sp"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="bottom"
+                android:textColor="@color/white"
+                android:id="@+id/scripts_card_textView_name" />
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@+id/scripts_card_textView_name"
+                android:id="@+id/scripts_childRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/card_main_color" />
+            <ImageView
+                android:layout_below="@+id/scripts_childRecyclerView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:adjustViewBounds="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="8dp"
+                android:id="@+id/scripts_card_plus_image" />
+            <View
+                android:layout_below="@+id/scripts_card_plus_image"
+                android:id="@+id/scripts_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:layout_below="@+id/scripts_line"
+                android:id="@+id/scripts_card_button_delete"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:padding="8dp"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:text="Delete"
+                android:textColor="@color/white"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@+id/scripts_line"
+                android:id="@+id/scripts_card_button_time"
+                android:layout_toRightOf="@id/scripts_card_button_delete"
+                android:layout_alignParentBottom="true"
+                android:padding="8dp"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:text="Set time"
+                android:textColor="@color/white"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.SwitchCompat
+                android:layout_below="@+id/scripts_line"
+                android:id="@+id/scripts_card_switch_compat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:switchPadding="4dp"
+                android:checked="false"
+                android:textColor="@color/white"
+                android:textOff="OFF"
+                android:textOn="ON"
+                android:theme="@style/SwitchCompatTheme" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

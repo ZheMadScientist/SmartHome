@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/alert_add_script_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <EditText
+            android:id="@+id/alert_add_script_name"
+            android:hint="Script name"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_below="@+id/alert_add_script_name_input"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:focusable="true"
+        android:id="@+id/script_color_orange_button"
+        android:layout_margin="8dp"
+        android:background="@color/script_color_orange" />
+  <Button
+  android:layout_below="@+id/alert_add_script_name_input"
+  android:layout_width="20dp"
+  android:layout_height="20dp"
+  android:focusable="true"
+  android:id="@+id/script_color_red_button"
+  android:layout_toRightOf="@+id/script_color_orange_button"
+  android:layout_margin="8dp"
+  android:background="@color/script_color_red" />
+  <Button
+    android:layout_below="@+id/alert_add_script_name_input"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_margin="8dp"
+    android:id="@+id/script_color_blue_button"
+    android:layout_toRightOf="@+id/script_color_red_button"
+    android:background="@color/script_color_blue" />
+  <Button
+    android:layout_below="@+id/alert_add_script_name_input"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_margin="8dp"
+    android:id="@+id/script_color_green_button"
+    android:layout_toRightOf="@+id/script_color_blue_button"
+    android:background="@color/script_color_green" />
+  <Button
+      android:layout_below="@+id/alert_add_script_name_input"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_margin="8dp"
+      android:id="@+id/script_color_teal_button"
+      android:layout_toRightOf="@+id/script_color_green_button"
+      android:background="@color/script_color_teal" />
+  <Button
+    android:layout_below="@+id/alert_add_script_name_input"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_margin="8dp"
+    android:id="@+id/script_color_grey_button"
+    android:layout_toRightOf="@+id/script_color_teal_button"
+    android:background="@color/script_color_grey" />
+    <Button
+        android:layout_below="@+id/alert_add_script_name_input"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        android:id="@+id/script_color_black_button"
+        android:layout_toRightOf="@+id/script_color_grey_button"
+        android:background="@color/script_color_black" />
+
+
+
+  
+</RelativeLayout>

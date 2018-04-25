@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:id="@+id/dashboard_card_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardPreventCornerOverlap="false"
+        android:clickable="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:background="@color/card_teal_color">
+            <TextView
+                android:textSize="32sp"
+                android:padding="8dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/dashboard_card_name" />
+            <TextView
+                android:layout_below="@+id/dashboard_card_name"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/dashboard_card_description" />
+            <ImageView
+                android:layout_below="@+id/dashboard_card_description"
+                android:layout_width="24dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:layout_margin="8dp"
+                android:id="@+id/dashboard_card_icon" />
+            <TextView
+                android:id="@+id/dashboard_card_value"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/dashboard_card_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/dashboard_card_onoff"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

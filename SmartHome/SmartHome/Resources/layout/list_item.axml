@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_rel_layout"
+    android:clickable="true">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/list_item_icon" />
+    <TextView
+        android:id="@+id/list_item_text"
+        android:layout_toRightOf="@+id/list_item_icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/card_red_color"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <CheckBox
+        android:id="@+id/checkbox_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="AddDevice">Add new device</string>
+  <string name="ApplicationName">SmartHome</string>
+  <string name="open_drawer">Open drawer</string>
+  <string name="close_drawer">Close drawer</string>
+  <string name="user">null</string>
+  <string name="find_device">Find new device</string>
+
+  <string-array name="devices_array">
+    <item>Xiaomi bulb</item>
+    <item>Xiaomi aqara</item>
+    <item>Bluetooth speaker</item>
+  </string-array>
+</resources>

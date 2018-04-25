@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/bottomBarCancel"
+      android:icon="@drawable/ic_clear_white_24dp"
+      android:title="Cancel" />
+  <item
+      android:id="@+id/bottomBarDone"
+      android:icon="@drawable/ic_done_white_24dp"
+      android:title="Apply" />
+</menu>

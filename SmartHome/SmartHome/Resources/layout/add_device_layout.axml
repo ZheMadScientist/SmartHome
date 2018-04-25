@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/add_device_card_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:padding="8dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/audio" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/add_device_card_image"
+        android:id="@+id/add_device_input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <EditText
+            android:id="@+id/add_device_name"
+            android:hint="Device name"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/add_device_input_name"
+        android:id="@+id/add_device_input_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <EditText
+            android:id="@+id/add_device_description"
+            android:hint="Device description"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <Spinner
+        android:layout_below="@+id/add_device_input_description"
+        android:id="@+id/add_device_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/SpinnerItem"
+        android:padding="10dp" />
+</RelativeLayout>

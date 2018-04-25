@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="pickerMode">
+    <attr name="mode" format="enum">
+      <enum name="percents" value="0"/>
+      <enum name="time" value="1"/>
+    </attr>
+  </declare-styleable>
+</resources>

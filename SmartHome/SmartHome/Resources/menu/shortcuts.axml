@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <shortcut
+    android:enabled="true"
+    android:icon="@drawable/icon_alldevices"
+    android:shortcutDisabledMessage="@string/user"
+    android:shortcutId="dev"
+    android:shortcutLongLabel="@string/shortcut_alldev"
+    android:shortcutShortLabel="@string/shortcut_alldev">
+    <intent
+      android:action="alldevices"
+      android:targetClass="com.vk.chetkiyperets.SmartHome.MainActivity"
+      android:targetPackage="com.vk.chetkiyperets.SmartHome" />
+  </shortcut>
+  <shortcut
+    android:enabled="true"
+    android:icon="@drawable/icon_scripts"
+    android:shortcutDisabledMessage="@string/user"
+    android:shortcutId="scr"
+    android:shortcutLongLabel="@string/shortcut_scripts"
+    android:shortcutShortLabel="@string/shortcut_scripts">
+    <intent
+      android:action="scripts"
+      android:targetClass="com.vk.chetkiyperets.SmartHome.MainActivity"
+      android:targetPackage="com.vk.chetkiyperets.SmartHome" />
+  </shortcut>
+</shortcuts>

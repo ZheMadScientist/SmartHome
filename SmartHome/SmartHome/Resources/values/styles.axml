@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorControlNormal">#00f2ff</item>
+    <item name="colorPrimary">#00838F</item>
+    <item name="colorPrimaryDark">#006064</item>
+    <item name="colorAccent">#B71C1C</item>
+  </style>
+  <style name="MyTheme" parent="MyTheme.Base">
+  </style>
+  <style name="SwitchCompatTheme" >
+    <item name="colorControlActivated">@color/switch_color_on</item>
+    <item name="colorAccent">@color/switch_color_on</item>
+  </style>
+  <style name="EditTextTheme" parent="MyTheme.Base">
+    <item name="colorAccent">@color/switch_color_on</item>
+  </style>
+  <style name="SpinnerItem" parent="@android:style/Widget.DropDownItem.Spinner">
+    
+  </style>
+</resources>
